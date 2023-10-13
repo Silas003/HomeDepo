@@ -8,6 +8,7 @@ import Carousel from './Carousel'
 import Packaging from './Packaging'
 import Online from './Online'
 import Promotion from './Promotion'
+import Bottom from './Bottom'
 const Home = () => {
   return (
     <View className='flex-1 ml-2  bg-neutral-100'>
@@ -36,7 +37,9 @@ const Home = () => {
         <Text className='ml-3 font-semibold text-2xl mt-4'>Promotion Campaign</Text>
         {/* promotion */}
         <Promotion/>
+        
         </ScrollView>
+        <Bottom/>
     </View>
   )
 }
